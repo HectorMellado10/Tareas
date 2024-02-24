@@ -96,9 +96,6 @@ class Program
         }
 
         {
-            // ... (código anterior)
-
-            // Calcular el Área de una Figura Geométrica
             Console.WriteLine("Ingrese el tipo de figura geométrica (triángulo, cuadrado o círculo):");
             string tipoFigura = Console.ReadLine().ToLower();
 
@@ -175,7 +172,6 @@ class Program
 
         }
 
-        // Mostrar el Día de la Semana a partir de un Número
         Console.WriteLine("Ingrese un número del 1 al 7:");
         int numeroDia = Convert.ToInt32(Console.ReadLine());
 
@@ -218,7 +214,6 @@ class Program
 
         Console.WriteLine($"El día de la semana es: {diaSemana}");
 
-        // Calcular el Importe a Pagar por un Servicio
         Console.WriteLine("Ingrese el tipo de servicio (lavado de auto, cambio de aceite, revisión mecánica):");
         string tipoServicio = Console.ReadLine().ToLower();
 
@@ -244,8 +239,6 @@ class Program
         }
 
         Console.WriteLine($"El importe a pagar por el servicio es: {costoServicio}");
-
-        // Mostrar un Mensaje de Bienvenida en Diferentes Idiomas
         Console.WriteLine("Ingrese el idioma de su preferencia (español, inglés, francés):");
         string idioma = Console.ReadLine().ToLower();
 
@@ -272,7 +265,6 @@ class Program
 
         Console.WriteLine(mensajeBienvenida);
 
-        // Evaluar la Calificación de un Examen
         Console.WriteLine("Ingrese la calificación del examen:");
         int calificacion = Convert.ToInt32(Console.ReadLine());
 
